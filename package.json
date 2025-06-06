@@ -1,0 +1,43 @@
+{
+  "name": "batik-detection-api",
+  "version": "1.0.0",
+  "description": "RESTful API untuk deteksi motif batik menggunakan Hapi.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "prettier": "prettier . --check",
+    "prettier:write": "prettier . --write",
+    "test": "jest"
+  },
+  "keywords": [
+    "hapi",
+    "api",
+    "batik",
+    "machine-learning"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@hapi/hapi": "^21.3.2",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/joi": "^17.1.1",
+    "@supabase/supabase-js": "^2.49.10",
+    "axios": "^1.5.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.32.6",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.4.1"
+  }
+}
